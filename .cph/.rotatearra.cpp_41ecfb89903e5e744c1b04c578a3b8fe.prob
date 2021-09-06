@@ -1,0 +1,1 @@
+{"name":"Local: rotatearra","url":"d:\\c++\\rotatearra.cpp","tests":[{"id":1630910860433,"input":"5\n1 2 3 4 5\n2","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\c++\\rotatearra.cpp","group":"local","local":true}
