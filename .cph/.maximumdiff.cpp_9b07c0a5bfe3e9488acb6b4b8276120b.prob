@@ -1,0 +1,1 @@
+{"name":"Local: maximumdiff","url":"d:\\c++\\maximumdiff.cpp","tests":[{"id":1631006830541,"input":"7\n2 3 10 6 4 8 1","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\c++\\maximumdiff.cpp","group":"local","local":true}
