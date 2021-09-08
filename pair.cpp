@@ -12,20 +12,11 @@ for(int i=0;i<n;i++){
     cin>>a[i];
 }
 
-int maxdiff=INT_MIN;
-
 for(int i=0;i<n;i++){
-    for(int j=i+1;j<n;j++){
-        int diff=a[j]-a[i];
-        if(diff>maxdiff){
-            maxdiff=diff;
-        }
+    for(int j=i;j<n;j++){
+        cout<<a[i]<<" "<<a[j]<<endl;
     }
 }
-
-cout<<maxdiff;
-
-
 
     return 0;
 }
