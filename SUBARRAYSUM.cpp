@@ -31,3 +31,5 @@ cout<<subarraysum(a,n);
 
     return 0;
 }
+// time complexit6y o(n^2)
+// space complexity o(1)
