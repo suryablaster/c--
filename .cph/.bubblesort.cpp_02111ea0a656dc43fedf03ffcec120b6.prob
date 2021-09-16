@@ -1,0 +1,1 @@
+{"name":"Local: bubblesort","url":"d:\\c++\\bubblesort.cpp","tests":[{"id":1631782477997,"input":"5\n55 66 34 22 188","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\c++\\bubblesort.cpp","group":"local","local":true}
