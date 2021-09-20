@@ -1,0 +1,1 @@
+{"name":"Local: 2darrayinput","url":"d:\\c++\\2darrayinput.cpp","tests":[{"id":1632131443681,"input":"3 2\n1 2 3 4 5 6","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\c++\\2darrayinput.cpp","group":"local","local":true}
