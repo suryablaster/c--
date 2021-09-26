@@ -25,7 +25,6 @@ int main(){
 
 
 student s1("surya",22);
-
 s1.print();
 
 
