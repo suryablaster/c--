@@ -38,25 +38,38 @@ void print(Node* head){
     cout<<endl;
 }
 
+void insertatend(Node* &head,int d){
+if(head==NULL){
+
+    insertatbegining(head,d);
+
+}
+Node* temp=head;
+
+while(temp->next != NULL){
+    temp=temp->next;
+}
+
+temp->next=new Node(d);
+
+
+
+}
+
 int main(){
 
     Node* head=NULL;
+    insertatbegining(head,2);
+    insertatbegining(head,3);
+    insertatbegining(head,4);
+    // insertatend(head,2);
+    // insertatend(head,3);
+    // insertatend(head,4);
+    // insertatend(head,5);
 
+    insertatend(head,6);
 
-insertatbegining(head,3);
-insertatbegining(head,2);
-insertatbegining(head,1);
-insertatbegining(head,0);
-
-print(head);
-
-
-
-
-
-
-
-
+    print(head);
 
 
 
