@@ -56,6 +56,20 @@ temp->next=new Node(d);
 
 }
 
+void deleteHEad(Node* &head){
+    if(head==NULL){
+        return;
+    }
+
+    Node* temp=head->next;
+    delete head;
+
+    head=temp;
+
+
+
+}
+
 int main(){
 
     Node* head=NULL;
@@ -68,6 +82,7 @@ int main(){
     // insertatend(head,5);
 
     insertatend(head,6);
+    deleteHEad(head);
 
     print(head);
 
