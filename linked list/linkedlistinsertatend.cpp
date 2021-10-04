@@ -69,6 +69,25 @@ void deleteHEad(Node* &head){
 
 
 }
+int length(Node* head){
+    int count =0;
+    while(head !=NULL){
+        count++;
+        head=head->next;
+    }
+    return count;
+}
+
+void printithnode(Node* head,int i){
+    if(i>length(head)){
+        return;
+    }
+    int a=0;
+    while(a<=i){
+        head=head->next;
+    }
+    cout<<head->data;
+}
 
 int main(){
 
@@ -82,12 +101,13 @@ int main(){
     // insertatend(head,5);
 
     insertatend(head,6);
-    deleteHEad(head);
+    // deleteHEad(head);
 
-    print(head);
+    // print(head);
 
+// cout<<length(head);
 
-
+cout<<printithnode(head,2);
 
     return 0;
 }
