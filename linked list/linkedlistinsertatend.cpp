@@ -89,25 +89,44 @@ void printithnode(Node* head,int i){
     cout<<head->data;
 }
 
+// void delete(Node* &head, int pos){
+//     if(head==NULL){
+//         return;
+//     }
+//     Node* temp=head;
+//     int count =0;
+//     while(count<pos-1){
+//         temp=temp->next;
+//         count++;
+//     }
+
+//     Node* a = temp->next;
+//     Node* b = a->data;
+//     temp->next=b;
+//     delete a;
+
+// }
+
 int main(){
 
     Node* head=NULL;
     insertatbegining(head,2);
     insertatbegining(head,3);
     insertatbegining(head,4);
-    // insertatend(head,2);
-    // insertatend(head,3);
-    // insertatend(head,4);
-    // insertatend(head,5);
+    insertatend(head,2);
+    insertatend(head,3);
+    insertatend(head,4);
+    insertatend(head,5);
 
     insertatend(head,6);
     // deleteHEad(head);
-
-    // print(head);
+    int p=3;
+    // delete(head , p);
+    print(head);
 
 // cout<<length(head);
 
-cout<<printithnode(head,2);
-
+// cout<<printithnode(head,2);
+ 
     return 0;
 }
