@@ -13,7 +13,7 @@ for(int i=0;i<n;i++){
 
     int e;
     cin>>e;
-    q.push(e);
+    q.push(e); 
 }
 
 
