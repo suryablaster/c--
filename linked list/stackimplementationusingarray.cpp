@@ -12,6 +12,8 @@ int cap;
 
 int top;
 
+int count=0;
+
 
 st(int a){
     cap=a;
@@ -21,8 +23,13 @@ st(int a){
 
 
 void push(int b){
+    if(count==cap){
+        return;
+    }
+
     top++;
     arr[top]=b;
+    count++;
 }
 
 int pop(){
@@ -31,7 +38,7 @@ int pop(){
 }
 
 bool isEmpty(){
-    if(cap==0){
+    if(top== -1){
         return true;
     }
     else{
@@ -41,6 +48,10 @@ bool isEmpty(){
 
 int peak(){
     return arr[top];
+}
+
+int size(){
+    return top+1;
 }
 
 };
@@ -55,9 +66,15 @@ s1.push(3);
 s1.push(3);
 s1.push(3);
 s1.push(4);
+s1.push(5);
+s1.push(6);
+s1.push(7);
+s1.push(8);
+
+
+cout<<s1.size()<<endl;
 
 cout<<s1.peak();
-
 
 
 
