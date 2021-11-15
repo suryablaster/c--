@@ -37,7 +37,7 @@ void print(Node* head){
     }
 }
 
-int in(){
+int main(){
 
     Node* head=NULL;
 
